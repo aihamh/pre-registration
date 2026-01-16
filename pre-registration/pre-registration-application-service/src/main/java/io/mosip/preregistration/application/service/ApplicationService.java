@@ -74,6 +74,10 @@ public class ApplicationService implements ApplicationServiceIntf {
 	@Value("${version}")
 	private String version;
 
+	@Value("${name}")
+	private String name;
+	
+
 	@Autowired
 	ApplicationRepostiory applicationRepository;
 
